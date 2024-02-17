@@ -1,0 +1,9 @@
+header {
+    background-image: url() ; /* เปลี่ยน path/to/your/image.jpg เป็นที่อยู่ของรูปภาพของคุณ */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* สูงของ header แต่ละส่วน */
+    text-align: center;
+    color: grey;
+    padding-top: 100px; /* ระยะห่างของเนื้อหาจากด้านบน */
+}
