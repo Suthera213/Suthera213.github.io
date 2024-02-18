@@ -7,3 +7,19 @@ header {
     color: grey;
     padding-top: 100px; /* ระยะห่างของเนื้อหาจากด้านบน */
 }
+nav {
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+footer {
+    background-color: blanchedalmond;
+    text-align: center;
+}
