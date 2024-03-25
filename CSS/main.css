@@ -2,10 +2,13 @@ header {
     background-image: url() ; /* เปลี่ยน path/to/your/image.jpg เป็นที่อยู่ของรูปภาพของคุณ */
     background-size: cover;
     background-position: center;
-    height: 300px; /* สูงของ header แต่ละส่วน */
+    height: auto; /* สูงของ header แต่ละส่วน */
     text-align: center;
     color: grey;
-    padding-top: 100px; /* ระยะห่างของเนื้อหาจากด้านบน */
+    padding-top: auto; /* ระยะห่างของเนื้อหาจากด้านบน */
+}
+h1 {
+    text-align: center;
 }
 h2 {
     text-align: center;
@@ -20,3 +23,27 @@ footer {
     background-color: blanchedalmond;
     text-align: center;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto ;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
