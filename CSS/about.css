@@ -1,0 +1,84 @@
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  body {
+    margin: 0 auto;
+    background: black;
+    color: #FFF;
+  }
+  header {
+    height: auto; /* สูงของ header แต่ละส่วน */
+    text-align: center;
+    color: grey;
+    padding-top: 20px; /* ระยะห่างของเนื้อหาจากด้านบน */
+    font-size: 2em;
+    font-weight: bold;
+    
+  }
+  a{
+    color: #00c3ff;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 30px;
+    margin: 0px 20px;
+  }
+  
+  li{
+    list-style: none;
+    float: left;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  section{
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px ;
+  }
+  section:hover {
+    color: #9dcaeb; /* เปลี่ยนสีเส้นขอบเมื่อ mouse hover */
+    
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto ;
+  }
+  
+  img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 40px ;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.348);
+  }
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
